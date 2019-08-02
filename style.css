@@ -1,0 +1,196 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000; 
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0; 
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+
+
+
+
+
+.nav-header-main{
+	margin:0 auto;
+	width:100%px;
+	height: 70px;
+	background-color:black;
+}
+.logo {
+	display: inline-block;;
+	vertical-align: top;
+	width: 50px;
+	height: 50px;
+	margin-right:20px;
+	margin-top: 15px; 
+	float: left;
+}
+
+}
+.nav-header-main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display:inline-block;
+}
+
+.nav-header-main li {
+  float: left;
+}
+
+.nav-header-main li a {
+  display: block;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-header-main li a:hover {
+  background-color: #111;
+}
+
+.header-login{
+float: right;
+margin-top: 15px;
+
+}
+.header-login a {
+	color: white;
+}
+.main{
+
+background: none repeat scroll 0 0 ;
+margin-top: 25px;
+padding: 10px;
+overflow:hidden;
+}
+
+.signup-form{
+color:white;
+background: none repeat scroll 0 0 #404040;
+border-left:5px solid #000000;
+border-top:5px solid #000000;
+border-right:5px solid #000000;
+border-bottom:5px solid #000000;
+margin-top: 25px;
+margin-right:auto;
+margin-left: auto; 
+padding: 10px;
+border-radius:5px;
+overflow:hidden;
+width:20%;
+}
+.signup-form input{
+	padding-bottom: 5px;
+	margin-bottom:10px;
+}
+.signup-submit{background: none repeat scroll 0 0 #000000;
+border: 1px solid #404040;
+border-radius: 5px;
+color: #FFFFFF;
+cursor: pointer;
+font-size: 18px;
+padding: 10px 50px;
+text-transform: uppercase;
+}
+
+.signup-submit:hover{
+background-color:#ffffff;
+color:#000000;
+}
+.error{
+	color:red;
+	font-style: oblique;
+}
